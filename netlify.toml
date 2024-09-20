@@ -1,5 +1,5 @@
 [build]
-base = "./test"
+base = "."
 command = "npm run build"
 publish = "dist/browser"
 
