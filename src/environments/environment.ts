@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  name: 'jo',
+  name: process.env['NG_APP_NAME'],
 };
