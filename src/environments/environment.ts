@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  name: process.env['NG_APP_NAME'] || 'failed',
+  name: _NGX_ENV_['NG_APP_NAME'],
 };
